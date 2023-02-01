@@ -1,0 +1,48 @@
+.botonnaranja {
+    background-color: rgba(255, 123, 0, 1);
+    border-radius: 5px;
+    width: 200px;
+    height: 40px;
+    color: white;
+    font-weight: bold;
+}
+
+#DNIform2 {
+    width: 500px; /* Ancho del input */
+    height: 40px; /* Alto del input */
+    font-size: 15px; /* Tamaño de la fuente */
+}
+
+#apellidoform2 {
+    width: 244px; /* Ancho del input */
+    height: 40px; /* Alto del input */
+    font-size: 15px; /* Tamaño de la fuente */
+}
+
+#menu {
+    width: 251px; /* Ancho del input */
+    height: 46px; /* Alto del input */
+    font-size: 15px; /* Tamaño de la fuente */
+}
+
+#movil {
+    width: 244px; /* Ancho del input */
+    height: 40px; /* Alto del input */
+    font-size: 15px; /* Tamaño de la fuente */
+}
+
+
+#form3box {
+    width: 244px; /* Ancho del input */
+    height: 40px; /* Alto del input */
+    font-size: 15px; /* Tamaño de la fuente */
+}
+
+#botonverde {
+    background-color: rgb(50, 156, 59);
+    border-radius: 5px;
+    width: 200px;
+    height: 40px;
+    color: white;
+    font-weight: bold;   
+}

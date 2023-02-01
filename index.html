@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Area Clientes</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <section>
+    <div id="area">
         <h3>Accede a tu Área Clientes</h3>
         <p>Elige tu documento</p>
         <input type="radio" name="identificacion" value="DNI o Tarjeta">DNI o Tarjeta de residencia
@@ -18,12 +18,65 @@
         <br>
         <br>
         <p>Numero de documento</p>
-        <input type="text" name="DNI" value="DNI o Tarjeta">
+        <input type="text" name="DNI" placeholder="DNI o Tarjeta">
         <p>Fecha de Nacimiento</p>
         <input type="date" name="fecha">
         <p><input type="checkbox"> Recordar</p>
-        <button>Entrar</button>
-    </section>
-    
+        <input type="submit" value="Enviar" class="botonnaranja">
+    </div>
+    <br>
+    <hr>
+    <div id="usuario">
+        <h3>Empieza creando tu usuario</h3>
+        <input type="text" id="DNIform2" name="DNI" placeholder="Nombre (como sale en el DNI)">
+        <br>
+        <br>
+        <input type="text" id="apellidoform2" name="DNI" placeholder="1º apellido (como sale en el DNI)">
+        <input type="text" id="apellidoform2" name="DNI" placeholder="2º apellido (como sale en el DNI)">
+        <br>
+        <br>
+        <select name="menu" id="menu">
+            <optgroup label="TIPO DE DOCUMENTO"></optgroup>
+            <option value="DNI">DNI</option>
+            <option value="NIF">NIF</option>
+            <option value="CERT. AEAT">CERT.AEAT</option>
+            <option value="0" disabled selected>DNI/NIF/CERT. AEAT</option>
+        </select>
+        <input type="number" id="apellidoform2" name="DNI" placeholder="Número de documento">
+        <br>
+        <br>
+        <input type="number" id="movil" name="NUMERO" placeholder="Móvil" max="9" min="9">
+        <input type="text" id="apellidoform2" name="MAIL" placeholder="Email">
+        <br>
+        <br>
+        <input type="submit">
+    </div>
+    <br>
+    <hr>
+    <div id="nuevo">
+        <h2>¿Eres nuevo?</h2>
+        <p>Regístrate para guardar tu información y hacer tus pedidos de forma más fácil y rápid</p>
+        <br>
+        <p>Email</p>
+        <input type="text" placeholder="Introduce tu mail" id="form3box">
+        <br>
+        <p>Teléfono</p>
+        <input type="number" name="numerotelefono" id="form3box" min="9" max="9" placeholder="Tu teléfono">
+        <br>
+        <p>Contraseña</p>
+        <input type="password" name="pass" id="form3box" placeholder="Introduce tu contraseña">
+        <br>
+        <p>Confirma tu contraseña</p>
+        <input type="password" name="passconfirm" id="form3box" placeholder="Confirmar contraseña">
+        <br>
+        <br>
+        <input type="checkbox" name="aceptado"> He leído y acepto las políticas de privacidad
+        <br>
+        <input type="checkbox" name="aceptorecibir"> Si, acepto recibir comunicaciones comerciales y ofertas personalizadas segun mi perfil
+        <br>
+        <br>
+        <input type="submit" id="botonverde">
+    </div>
+
 </body>
 </html>
